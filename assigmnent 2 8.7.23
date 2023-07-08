@@ -1,0 +1,97 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO2SOXgalexVAzGxa0CAd+g",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AMULYA270492/assignment1/blob/master/assigmnent%202%208.7.23\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7w8cRzNyZ3Ou",
+        "outputId": "94618381-7b23-43a1-c328-2b16395e5061"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "*\n",
+            "**\n",
+            "***\n",
+            "****\n",
+            "*****\n",
+            "****\n",
+            "***\n",
+            "**\n",
+            "*\n"
+          ]
+        }
+      ],
+      "source": [
+        "x=5\n",
+        "i=1\n",
+        "a=\"*\"\n",
+        "while i<=5:\n",
+        "  print(i*a)\n",
+        "  i=i+1\n",
+        "  if i==6:\n",
+        "    p=4\n",
+        "    while p>=1:\n",
+        "      print(p*a)\n",
+        "      p=p-1\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=input(\"enter the string to be reversed\")\n",
+        "print(x[::-1])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "X4_38Ak8drs2",
+        "outputId": "d3dcda62-bbca-4bf5-a5e6-df9bbdea6fa4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the string to be reversedamulya tetali\n",
+            "ilatet ayluma\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
